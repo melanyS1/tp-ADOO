@@ -9,6 +9,24 @@ public class Obra {
 	private int duracion;
 	private String director;
 	private List<GrupoActores> elencoPrincipal = new ArrayList();
+	private List<Funcion> funciones = new ArrayList();
+	
+	public List<GrupoActores> getElencoPrincipal() {
+		return elencoPrincipal;
+	}
+
+	public void setElencoPrincipal(List<GrupoActores> elencoPrincipal) {
+		this.elencoPrincipal = elencoPrincipal;
+	}
+
+	public List<Funcion> getFunciones() {
+		return funciones;
+	}
+
+	public void setFunciones(List<Funcion> funciones) {
+		this.funciones = funciones;
+	}
+
 	private String genero;
 	
 	public Obra (String titulo, String sinopsis, int duracion, String director, String genero) {
