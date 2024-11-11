@@ -1,4 +1,4 @@
-package entidades;
+package TPO_ADO.src.entidades;
 
 public class Actor {
 	private String nombre;
@@ -13,11 +13,11 @@ public class Actor {
 		this.nombre=nombre;
 	}
 	
-	public String getEdad() {
+	public int getEdad() {
 		return edad;
 	}
 	
-	public void setEdad(String edad) {
+	public void setEdad(int edad) {
 		this.edad=edad;
 	}
 	

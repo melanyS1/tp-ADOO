@@ -1,4 +1,8 @@
-package entidades;
+package TPO_ADO.src.entidades;
+
+import java.util.ArrayList;
+
+import java.util.List;
 
 public class Compra {
     
@@ -39,6 +43,7 @@ public class Compra {
 
     public double calcularMontoFinal(){
 		//
+        return 0.0;
 	}
 
 

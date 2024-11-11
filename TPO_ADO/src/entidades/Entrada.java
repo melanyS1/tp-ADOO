@@ -1,4 +1,4 @@
-package entidades;
+package TPO_ADO.src.entidades;
 
 public abstract class Entrada {
 	private Funcion funcion;

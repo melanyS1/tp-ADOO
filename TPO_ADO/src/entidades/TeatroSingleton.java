@@ -1,30 +1,27 @@
-package entidades;
+package TPO_ADO.src.entidades;
+
+import java.util.ArrayList;
+
+import java.util.List;
 
 public final class TeatroSingleton {
 	private final String nombre;
 	private final String direccion;
-	private final List<Obra> obras = new ArrayList<>();
-	private static TeatroSingleton instance;
-	public String s;
+	//private final List<Obra> obras = new ArrayList<>();
+	private static TeatroSingleton instanciaUnica;
+	
 
 	private TeatroSingleton() {
 		this.nombre = "nombre del teatro";
 		this.direccion = "Calle Falsa 123";
-		this.obras = obras.add(new Obra());
+		//this.obras = obras;
 	}
 	
 	public static TeatroSingleton getInstance(){
-		if (instance == null)
-			instance = new TeatroSingleton();
-		return instance;
+		if (instanciaUnica == null)
+			instanciaUnica = new TeatroSingleton();
+		return instanciaUnica;
 	}
 	
-	public String getSingletonData(){
-		if (instance == null)
-			return null;
-		else
-			return(s);
-	}
-
 
 }

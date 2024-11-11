@@ -1,4 +1,6 @@
-package entidades;
+package TPO_ADO.src.entidades;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Cliente {
     

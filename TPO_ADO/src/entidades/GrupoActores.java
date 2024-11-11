@@ -1,4 +1,8 @@
-package entidades;
+package TPO_ADO.src.entidades;
+
+import java.util.ArrayList;
+
+import java.util.List;
 
 public class GrupoActores {
 	private String nombreGrupo;
@@ -29,10 +33,9 @@ public class GrupoActores {
 	}
 	
 	public List<Actor> agregarActor(Actor actor){
-		
 		//
-		
-		//return actoresAgregados;
+		//
+		return actores;
 	}
 	
 	public static void elimarActor(Actor ator) {

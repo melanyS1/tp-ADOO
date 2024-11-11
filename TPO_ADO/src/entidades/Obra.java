@@ -1,15 +1,17 @@
-package entidades;
+package TPO_ADO.src.entidades;
 
+import java.sql.Time;
 import java.util.ArrayList;
 import java.util.List;
+
 
 public class Obra {
 	private String titulo;
 	private String sinopsis;
-	private int duracion;
+	private Time duracion;
 	private String director;
-	private List<GrupoActores> elencoPrincipal = new ArrayList();
-	private List<Funcion> funciones = new ArrayList();
+	private List<GrupoActores> elencoPrincipal = new ArrayList<>();
+	private List<Funcion> funciones = new ArrayList<>();
 	
 	public List<GrupoActores> getElencoPrincipal() {
 		return elencoPrincipal;
@@ -29,7 +31,7 @@ public class Obra {
 
 	private String genero;
 	
-	public Obra (String titulo, String sinopsis, int duracion, String director, String genero) {
+	public Obra (String titulo, String sinopsis, Time duracion, String director, String genero) {
 		this.titulo=titulo;
 		this.sinopsis=sinopsis;
 		this.duracion=duracion;
@@ -53,11 +55,11 @@ public class Obra {
 		this.sinopsis=sinopsis;
 	}
 	
-	public int getDuracion() {
+	public Time getDuracion() {
 		return duracion;
 	}
 	
-	public void setDuracion(int duracion) {
+	public void setDuracion(Time duracion) {
 		this.duracion=duracion;
 	}
 	

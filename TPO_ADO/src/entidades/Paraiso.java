@@ -1,8 +1,14 @@
-package entidades;
+package TPO_ADO.src.entidades;
 
-public class Platea extends Ubicacion {
+public class Paraiso extends Ubicacion {
     
     private int capacidadMaxima;
+
+
+    public Paraiso(int asiento, int fila, double costBase, int capacidadMaxima) {
+        super(asiento, fila, costBase);
+        this.capacidadMaxima = capacidadMaxima;
+    }
 
 
     public double calcularCosto(int asiento, double costoBase){

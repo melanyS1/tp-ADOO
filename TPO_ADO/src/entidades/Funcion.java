@@ -1,4 +1,4 @@
-package entidades;
+package TPO_ADO.src.entidades;
 
 import java.sql.Time;
 import java.util.Date;
