@@ -1,4 +1,4 @@
-package TPO_ADO.src.entidades;
+package entidades;
 
 import java.util.ArrayList;
 import java.util.List;

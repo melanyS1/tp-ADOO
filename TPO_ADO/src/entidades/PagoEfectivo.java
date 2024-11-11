@@ -1,6 +1,6 @@
-package TPO_ADO.src.entidades;
+package entidades;
 
-public class PagoEfectivo implements MedioDePago{
+public class PagoEfectivo {
 	
 	public double calcularMontoFinal(double montoBase) {
 		

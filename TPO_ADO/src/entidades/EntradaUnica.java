@@ -1,6 +1,5 @@
-package TPO_ADO.src.entidades;
+package entidades;
 
 public class EntradaUnica extends Entrada {
-	//
 
 }

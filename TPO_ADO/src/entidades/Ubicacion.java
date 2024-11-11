@@ -39,3 +39,8 @@ public class Ubicacion {
 	
 
 }
+package entidades;
+
+public class Ubicacion {
+
+}

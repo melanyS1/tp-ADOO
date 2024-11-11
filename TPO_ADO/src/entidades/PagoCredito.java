@@ -1,6 +1,6 @@
-package TPO_ADO.src.entidades;
+package entidades;
 
-public class PagoCredito implements MedioDePago{
+public class PagoCredito {
 	private int numeroCuotas;
 	
 	public PagoCredito(int numeroCuotas) {
