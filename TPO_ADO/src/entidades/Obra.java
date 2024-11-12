@@ -8,7 +8,7 @@ import java.util.List;
 public class Obra {
 	private String titulo;
 	private String sinopsis;
-	private Time duracion;
+	private int duracionMinutos;
 	private String director;
 	private List<GrupoActores> elencoPrincipal = new ArrayList<>();
 	private List<Funcion> funciones = new ArrayList<>();
@@ -31,10 +31,10 @@ public class Obra {
 
 	private String genero;
 	
-	public Obra (String titulo, String sinopsis, Time duracion, String director, String genero) {
+	public Obra (String titulo, String sinopsis, int duracionMinutos, String director, String genero) {
 		this.titulo=titulo;
 		this.sinopsis=sinopsis;
-		this.duracion=duracion;
+		this.duracionMinutos=duracionMinutos;
 		this.director=director;
 		this.genero=genero;
 	}
@@ -55,12 +55,12 @@ public class Obra {
 		this.sinopsis=sinopsis;
 	}
 	
-	public Time getDuracion() {
-		return duracion;
+	public int getDuracionMinutos() {
+		return duracionMinutos;
 	}
 	
-	public void setDuracion(Time duracion) {
-		this.duracion=duracion;
+	public void setDuracion(int duracionMinutos) {
+		this.duracionMinutos=duracionMinutos;
 	}
 	
 	public String getDirector() {

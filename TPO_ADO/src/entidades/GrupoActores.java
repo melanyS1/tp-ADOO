@@ -33,9 +33,10 @@ public class GrupoActores {
 	}
 	
 	public List<Actor> agregarActor(Actor actor){
-		//
-		//
-		return actores;
+		System.out.println("...");
+		List<Actor> actoresAgregados = new ArrayList<>();
+		actoresAgregados.add(new Actor("Ana García", 34, "actriz principal"));
+		return actoresAgregados;
 	}
 	
 	public static void elimarActor(Actor ator) {

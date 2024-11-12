@@ -7,14 +7,17 @@ import java.util.List;
 public final class TeatroSingleton {
 	private final String nombre;
 	private final String direccion;
-	//private final List<Obra> obras = new ArrayList<>();
+	private final List<Obra> obras;
 	private static TeatroSingleton instanciaUnica;
 	
-
+	
 	private TeatroSingleton() {
 		this.nombre = "nombre del teatro";
-		this.direccion = "Calle Falsa 123";
-		//this.obras = obras;
+		System.out.println("Teatro Colonial");
+		this.direccion = "direccion del teatro";
+		System.out.println("Calle De Los Teatros 123");
+		this.obras = new ArrayList<>();
+		System.out.println(obras);
 	}
 	
 	public static TeatroSingleton getInstance(){
@@ -22,6 +25,8 @@ public final class TeatroSingleton {
 			instanciaUnica = new TeatroSingleton();
 		return instanciaUnica;
 	}
+
+	
 	
 
 }
