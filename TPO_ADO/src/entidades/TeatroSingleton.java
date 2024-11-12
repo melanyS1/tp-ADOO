@@ -12,11 +12,12 @@ public final class TeatroSingleton {
 	
 	
 	private TeatroSingleton() {
-		this.nombre = "nombre del teatro";
-		System.out.println("Teatro Colonial");
-		this.direccion = "direccion del teatro";
-		System.out.println("Calle De Los Teatros 123");
+		this.nombre = "Teatro Colonial";
+		System.out.println(nombre);
+		this.direccion = "Calle De Los Teatros 123";
+		System.out.println(direccion);
 		this.obras = new ArrayList<>();
+		obras.add(new Obra("","",235,"",""));
 		System.out.println(obras);
 	}
 	
